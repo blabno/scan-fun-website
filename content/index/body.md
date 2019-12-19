@@ -1,5 +1,5 @@
 ---
-# You don’t need to declare anything in the frontmatter
+layout: col 
 ---
 
 This is a demo page to get you running asap.

@@ -5,15 +5,15 @@ import React from 'react';
 /**
  * The page layout component
  */
-const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID }) => (
+const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID, _pages }) => (
 	<html>
 	<head>
-		<title>Cuttlebelle - { title }</title>
+		<title>ScanFun - { title }</title>
 		<meta charSet="utf-8" />
 		<meta httpEquiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<link rel="stylesheet" href={ _relativeURL( `/assets/css/site.css`, _ID ) } />
+		<link rel="stylesheet" href={ _relativeURL( `/assets/css/style.css`, _ID ) } />       
 		{
 			stylesheet != undefined
 				? ( <link rel="stylesheet" href={ _relativeURL( `/assets/css/${ stylesheet }.css`, _ID ) } /> )
