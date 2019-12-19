@@ -1,4 +1,4 @@
 ---
-layout: col 
+layout: row 
 ---
 For business

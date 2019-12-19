@@ -7,7 +7,7 @@ header:                # Our header part of the layout
   - /_shared/header.md # This is the header and we got it from another folder we use to share partials
 
 main:                  # Our main part of the layout
-  - section1.md            # This partial is located inside the same folder as this index.yml
+  - portfolio.md            # This partial is located inside the same folder as this index.yml
   - section2.md            # This partial is located inside the same folder as this index.yml
 
 footer:                # Our footer part of the layout

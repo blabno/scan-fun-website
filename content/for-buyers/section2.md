@@ -1,5 +1,5 @@
 ---
-layout: col 
+layout: row 
 ---
 ## Section 2
 
