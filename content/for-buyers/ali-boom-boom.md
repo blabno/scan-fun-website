@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Ali Boom Boom
+cardTitle: Ali Boom Boom
 img:
     src: https://www.labnoratory.com/img/ali.png
     alt: Ali Boom Boom

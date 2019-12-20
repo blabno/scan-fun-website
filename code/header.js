@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Fragment } from 'react';
+import React from 'react';
 
 
 const Header = ({ _body, _ID, links, _relativeURL }) => (
@@ -15,7 +15,7 @@ const Header = ({ _body, _ID, links, _relativeURL }) => (
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              {links.map(({ href, text }) => (<li className="nav-item">
+              {links.map(({ href, text }, index) => (<li className="nav-item" key={index}>
                 <a className="nav-link" href={_relativeURL(href, _ID)}>{text}</a>
               </li>))}
             </ul>

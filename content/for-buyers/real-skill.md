@@ -1,6 +1,6 @@
 ---
 layout: card
-title: RealSkill
+cardTitle: RealSkill
 img:
     src: https://www.labnoratory.com/img/resize-rs.png
     alt: RealSkill

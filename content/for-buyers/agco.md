@@ -1,6 +1,6 @@
 ---
 layout: card
-title: Agco
+cardTitle: Agco
 img:
     src: https://www.labnoratory.com/img/resize-agco.png
     alt: Agco

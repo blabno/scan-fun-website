@@ -1,6 +1,6 @@
 ---
 layout: card
-title: SafeMotos
+cardTitle: SafeMotos
 img:
     src: https://www.labnoratory.com/img/resize-sm.png
     alt: SafeMotos
