@@ -5,5 +5,5 @@ children:
     - safe-motos.md 
     - agco.md
     - real-skill.md
-rowCols: 3 
+rowCols: 3
 ---

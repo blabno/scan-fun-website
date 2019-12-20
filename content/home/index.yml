@@ -4,14 +4,14 @@
 title: Homepage        # The title of the page
 
 header:                # Our header part of the layout
-  - /_shared/header.md # This is the header and we got it from another folder we use to share partials
+- /_shared/header.md # This is the header and we got it from another folder we use to share partials
 
 main:                  # Our main part of the layout
-  - body.md            # This partial is located inside the same folder as this index.yml
-  - section.md
+- body.md            # This partial is located inside the same folder as this index.yml
+
 
 footer:                # Our footer part of the layout
-  - /_shared/footer.md # Another reused partial from our _shared folder
+- /_shared/footer.md # Another reused partial from our _shared folder
 
 # You can pass in many more options to your layout here,
 # things like a theme variable or a localization string.
