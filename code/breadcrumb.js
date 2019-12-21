@@ -20,11 +20,14 @@ const Breadcrumb = ({ _ID, _pages, _relativeURL }) => {
     return path.join('/');
   });
   const lastIndex = segments.length - 1;
+  if (!segments.length) {
+    return null;
+  }
   return (
     <Fragment>
       <nav aria-label="breadcrumb">
         <ol className="breadcrumb">
-          <li className="breadcrumb-item"><a href={_relativeURL('/', _ID)}>Home</a></li>
+          <li className="breadcrumb-item"><a href={_relativeURL('/', _ID)}>Start</a></li>
           {segments.map((segment, index) => (
             <BreadcrumbItem key={index} text={_pages[segment].title} href={_relativeURL(`/${segment}`, _ID)}
                             isLast={index === lastIndex}/>
