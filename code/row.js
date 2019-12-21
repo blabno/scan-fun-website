@@ -17,7 +17,7 @@ const Row = ({ _body, children, rowCols, rowColsMd, rowColsSm, rowColsLg, rowCol
       {hasBody(_body) && <div className={'col'}>{_body}</div>}
       {children instanceof Array ? children.map(
         (child, index) => (<div className={'col'} key={index}>{child}</div>)) : (
-        <div className={'col'}>{children}</div>)}
+        children && (<div className={'col'}>{children}</div>))}
     </div>
   </div>
 );
