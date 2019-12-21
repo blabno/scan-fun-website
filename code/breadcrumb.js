@@ -36,8 +36,8 @@ const Breadcrumb = ({ _ID, _pages, _relativeURL }) => {
 };
 Breadcrumb.propTypes = {
   _ID: PropTypes.string.isRequired,
-  _pages: PropTypes.array.isRequired,
-  _relativeURL: PropTypes.func.required,
+  _pages: PropTypes.object.isRequired,
+  _relativeURL: PropTypes.func.isRequired,
 };
 
 Breadcrumb.defaultProps = {};
