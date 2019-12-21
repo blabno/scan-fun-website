@@ -23,7 +23,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
     }
   </head>
   <body>
-  <div className="top">
+  <div id={'content'}>
     <header role="banner">
       {header}
     </header>

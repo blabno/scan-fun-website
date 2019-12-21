@@ -42,8 +42,26 @@ $breadcrumb-bg: transparent;
 //Uncomment this only for development if in doubt how component looks with full bootstrap imported
 //@import "../node_modules/bootstrap/scss/bootstrap";
 
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#content {
+  flex: 1;
+}
+
 footer, main {
   margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
 }
 
 .breadcrumb, .navbar {
