@@ -9,5 +9,5 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 * Scanning results
-    * [Portal depleted](/for-buyers/faq/portal-depleted)
-    * [Portal recharging](/for-buyers/faq/portal-recharging)
+    * [Portal depleted](/dla-klientow/faq/portal-depleted)
+    * [Portal recharging](/dla-klientow/faq/portal-recharging)

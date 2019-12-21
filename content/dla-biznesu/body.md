@@ -1,4 +1,4 @@
 ---
 layout: row 
 ---
-For business
+Dla biznesu
