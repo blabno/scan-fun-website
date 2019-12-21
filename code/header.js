@@ -6,7 +6,7 @@ const Header = ({ _body, _ID, links, _relativeURL }) => (
   <div className={'container'}>
     <div className={'row'}>
       <div className={'col'}>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <a className="navbar-brand" href={_relativeURL('/', _ID)}>Home</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                   aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -1,5 +1,11 @@
+$breadcrumb-bg: transparent;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 footer, main {
   margin-top: 1rem;
+}
+
+.breadcrumb, .navbar {
+  padding-left: 0;
 }
