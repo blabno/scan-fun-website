@@ -15,6 +15,7 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
     <Row>
       <ul className={'list-unstyled'}>
         <li><a href={_relativeURL('/polityka-prywatnosci', _ID)}>Polityka prywatności</a></li>
+        <li><a href={_relativeURL('/dokumentacja', _ID)}>Dokumentacja</a></li>
       </ul>
       <ul className={'list-unstyled'}>
         <li>
