@@ -16,7 +16,7 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
       <ul className={'list-unstyled'}>
         <li>
           Aplikacja dla zbierających kupony:
-          <ul>
+          <ul className={'list-unstyled'}>
             <li><a href={COLLECTOR_APP_ANDROID_URL}>Android</a></li>
             <li><a href={COLLECTOR_APP_IOS_URL}>iOS</a></li>
           </ul>
@@ -25,7 +25,7 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
       <ul className={'list-unstyled'}>
         <li>
           Aplikacja dla biznesu:
-          <ul>
+          <ul className={'list-unstyled'}>
             <li><a href={MANAGER_APP_ANDROID_URL}>Android</a></li>
             <li><a href={MANAGER_APP_IOS_URL}>iOS</a></li>
           </ul>
@@ -34,7 +34,7 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
       <ul className={'list-unstyled'}>
         <li>
           Aplikacja Dystrybutor:
-          <ul>
+          <ul className={'list-unstyled'}>
             <li><a href={DISTRIBUTOR_APP_ANDROID_URL}>Android</a></li>
             <li><a href={DISTRIBUTOR_APP_IOS_URL}>iOS</a></li>
           </ul>
