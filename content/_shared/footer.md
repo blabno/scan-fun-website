@@ -1,4 +1,4 @@
 ---
-layout: row 
+layout: footer 
 ---
 Copyright Labnoratory Ltd @2019
