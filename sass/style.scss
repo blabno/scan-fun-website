@@ -69,6 +69,15 @@ footer {
 .breadcrumb, .navbar {
   padding-left: 0;
 }
+
+.download-mobile-app {
+  text-align: center;
+
+  img {
+    max-width: 200px;
+  }
+}
+
 .portfolio {
   .card {
     margin-bottom: 1rem;

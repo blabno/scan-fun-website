@@ -1,8 +1,12 @@
 ---
-layout: screenshot 
+layout: row 
 
-imgUrl: /assets/screenshots/portal-qr-code.png
 ---
-# Skanuj kody QR i zdobywaj kupony
+## ScanFun to sposób na zarządzanie kuponami rabatowymi
 
-Zawsze gdy zobaczysz kod QR i napis lub logo ScanFun spróbuj go zeskanować, bo masz szansę zdobyć kupon rabatowy.
+Kupony możesz zdobywać skanując kody QR z cyfrowego dystrybutora ScanFun.
+
+Sprzedawca może wręczyć Ci kupon w formie papierowej, który możesz zaimportować do aplikacji.
+
+Wszystkimi kuponami zarządzasz z jednej aplikacji, która przypomni Ci o zbliżającym się końcu ważności danego kuponu.
+
