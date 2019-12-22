@@ -64,6 +64,13 @@ footer {
   .copyright {
     @extend .text-center;
   }
+
+  .container {
+    &:first-child {
+      border-top: 2px solid $gray-400;
+      padding-top: 2rem;
+    }
+  }
 }
 
 .breadcrumb, .navbar {
