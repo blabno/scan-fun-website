@@ -14,6 +14,9 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
   <Fragment>
     <Row>
       <ul className={'list-unstyled'}>
+        <li><a href={_relativeURL('/polityka-prywatnosci', _ID)}>Polityka prywatności</a></li>
+      </ul>
+      <ul className={'list-unstyled'}>
         <li>
           Aplikacja dla zbierających kupony:
           <ul className={'list-unstyled'}>
