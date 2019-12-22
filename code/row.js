@@ -11,8 +11,8 @@ const rowClassName = ({ rowCols, rowColsMd, rowColsSm, rowColsLg, rowColsXl }) =
               rowColsLg && `row-cols-lg-${rowColsLg}`,
               rowColsLg && `row-cols-xl-${rowColsXl}`]);
 
-const Row = ({ _body, children, rowCols, rowColsMd, rowColsSm, rowColsLg, rowColsXl }) => (
-  <div className={'container'}>
+const Row = ({ _body, children, className, rowCols, rowColsMd, rowColsSm, rowColsLg, rowColsXl }) => (
+  <div className={classNames(['container', className])}>
     <div className={rowClassName({ rowCols, rowColsMd, rowColsSm, rowColsLg, rowColsXl })}>
       {hasBody(_body) && <div className={'col'}>{_body}</div>}
       {children instanceof Array ? children.map(

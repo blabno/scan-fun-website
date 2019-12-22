@@ -90,3 +90,9 @@ footer {
     margin-bottom: 1rem;
   }
 }
+
+.documentation {
+  img {
+    @extend .img-fluid
+  }
+}
