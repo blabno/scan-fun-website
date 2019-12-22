@@ -2,10 +2,6 @@
 layout: row 
 ---
 
-## Jestem sprzedawcą, jak to działa z mojej perspektywy?
-
-Zapraszamy do sekcji [Pytania i odpowiedzi](/dla-biznesu/pytania-i-odpowiedzi) w dziale dla biznesu.
-
 ## Gdzie mogę znaleźć dystrybutory?
 
 W aplikacji Collector, w menu wybierz `Dystrybutory nieopodal`. Tutaj za pomocą interaktywnej mapy będziesz mógł
