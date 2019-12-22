@@ -2,7 +2,7 @@
 layout: row 
 ---
 
-# Dla biznesu
+# ScanFun dla biznesu
 
 Klienci uwielbiają rabaty, a biznes lubi, gdy klienci wracają.
 
@@ -30,9 +30,13 @@ twoje kupony.
 Możesz wygenerować kupony i skonfigurować je tak aby mogły być rozdawane w dystrybutorach należących do innych firm.
 Dodatkowo możesz ograniczyć dystrybucję do określonego obszaru.
 
-## Możesz dystrybuować kupony innych biznesów         
+## Możesz dystrybuować kupony innych firm         
 
 Możesz skonfigurować swój dystrybutor, aby wydawał kupony innych firm, przy czym możesz ograniczyć to do wybranych branż.
+
+Przykład 1: Perfumeria chce dystrybuować tylko kupony na produkty i usługi z branży `Zdrowie i uroda`.
+
+Przykład 2: Restauracja nie chce dystrybuować kuponów konkurencji, więc blokuje kupony z branży `Gastronomia`.
 
 ## Jak zacząć?
 
