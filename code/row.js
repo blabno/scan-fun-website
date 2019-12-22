@@ -28,6 +28,7 @@ Row.propTypes = {
    */
   _body: PropTypes.node,
   children: PropTypes.node,
+  className: PropTypes.string,
   rowCols: PropTypes.number,
   rowColsMd: PropTypes.number,
   rowColsSm: PropTypes.number,
