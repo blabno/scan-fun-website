@@ -63,6 +63,7 @@ footer, main {
 footer {
   .copyright {
     @extend .text-center;
+    margin-top: 1rem;
   }
 
   .container {
