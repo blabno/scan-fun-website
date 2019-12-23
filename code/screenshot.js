@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+import Container from './container';
 import Row from './row';
 
 const Screenshot = ({ _body, _ID, _relativeURL, imgUrl, bodyOnTheLeft = true }) => {
@@ -9,12 +10,15 @@ const Screenshot = ({ _body, _ID, _relativeURL, imgUrl, bodyOnTheLeft = true }) 
   if (bodyOnTheLeft) {
     children.push(_body);
   }
-  children.push(<div className={'image'}><img src={_relativeURL(imgUrl, _ID)} className={'img-fluid'}/></div>);
+  children.push(<div key={'image'} className={'image'}><img src={_relativeURL(imgUrl, _ID)} className={'img-fluid'}/>
+  </div>);
   if (!bodyOnTheLeft) {
     children.push(_body);
   }
   return (
-    <Row className={'screenshot'} columnClasses={columnClasses}>{children}</Row>
+    <Container className={'screenshot'}>
+      <Row columnClasses={columnClasses}>{children}</Row>
+    </Container>
   )
 };
 

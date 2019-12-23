@@ -1,7 +1,7 @@
 ---
-layout: row 
-
+layout: containerWithOneRow 
 ---
+
 ## ScanFun to wygodny sposób na zarządzanie kuponami rabatowymi
 
 Kupony możesz zdobywać skanując kody QR z cyfrowego dystrybutora ScanFun.

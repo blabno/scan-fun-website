@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import Breadcrumb from './breadcrumb';
+import Container from './container';
 import Row from './row';
 
 
@@ -28,9 +29,11 @@ const Page = ({ bodyClassName, title, stylesheet, header, main, footer, script, 
       {header}
     </header>
 
-    <Row>
-      <Breadcrumb _ID={_ID} _pages={_pages} _relativeURL={_relativeURL}/>
-    </Row>
+    <Container>
+      <Row>
+        <Breadcrumb _ID={_ID} _pages={_pages} _relativeURL={_relativeURL}/>
+      </Row>
+    </Container>
 
     <main>
       {main}

@@ -1,5 +1,5 @@
 ---
-layout: row 
+layout: containerWithOneRow 
 ---
 
 ## Możesz dystrybuować kupony innych firm         

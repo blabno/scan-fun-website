@@ -1,5 +1,5 @@
 ---
-layout: row 
+layout: containerWithOneRow 
 ---
 
 ## Masz więcej pytań?

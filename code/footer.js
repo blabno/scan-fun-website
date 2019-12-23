@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import {
   COLLECTOR_APP_ANDROID_URL,
   COLLECTOR_APP_IOS_URL,
@@ -7,11 +7,12 @@ import {
   MANAGER_APP_ANDROID_URL,
   MANAGER_APP_IOS_URL
 } from './config';
+import Container from './container';
 import Row from './row';
 
 
 const Footer = ({ _body, _ID, _relativeURL }) => (
-  <Fragment>
+  <Container>
     <Row rowCols={1} rowColsSm={2} rowColsMd={3} rowColsLg={4}>
       <ul className={'list-unstyled'}>
         <li><a href={_relativeURL('/polityka-prywatnosci', _ID)}>Polityka prywatności</a></li>
@@ -35,7 +36,7 @@ const Footer = ({ _body, _ID, _relativeURL }) => (
         {_body}
       </div>
     </Row>
-  </Fragment>
+  </Container>
 );
 
 Footer.propTypes = {};

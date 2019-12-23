@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import Row from './row';
+import ContainerWithOneRow from './containerWithOneRow';
 
 
 //TODO google-play.png and app-store.png should have exactly the same sizes
 const DownloadMobileApp = ({ _relativeURL, androidUrl, iosUrl }) => {
   return (
-    <Row>
+    <ContainerWithOneRow>
       <div className={'download-mobile-app'}>
         <div>Pobierz aplikację mobilną:</div>
         <a href={androidUrl}>
@@ -16,9 +16,10 @@ const DownloadMobileApp = ({ _relativeURL, androidUrl, iosUrl }) => {
           <img src={_relativeURL('/assets/images/app-store.png')} alt={'Pobierz aplikację z App Store'}/>
         </a>
       </div>
-    </Row>
+    </ContainerWithOneRow>
   );
 };
+
 DownloadMobileApp.propTypes = {
   _relativeURL: PropTypes.func.isRequired,
   androidUrl: PropTypes.string.isRequired,

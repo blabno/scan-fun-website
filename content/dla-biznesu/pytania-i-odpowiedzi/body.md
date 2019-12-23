@@ -1,4 +1,4 @@
 ---
-layout: row 
+layout: containerWithOneRow 
 ---
 # Pytania i odpowiedzi

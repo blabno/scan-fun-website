@@ -1,10 +1,11 @@
 import React from 'react';
+import Container from './container';
 import Row from './row';
 
 const Portfolio = props => (
-  <div className={'portfolio'}>
+  <Container className={'portfolio'}>
     <Row {...props}/>
-  </div>
+  </Container>
 );
 
 Portfolio.propTypes = Row.propTypes;

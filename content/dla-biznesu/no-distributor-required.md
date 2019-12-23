@@ -1,5 +1,5 @@
 ---
-layout: row 
+layout: containerWithOneRow 
 ---
 
 ## Nie musisz mieć dystrybutora aby rozdawać kupony

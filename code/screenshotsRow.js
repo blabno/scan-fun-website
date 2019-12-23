@@ -5,12 +5,12 @@ import Row from './row';
 import { hasBody } from './util';
 
 const ScreenshotsRow = ({ _body, _ID, _relativeURL, images }) => {
-  const children = images.map(image => (<img src={_relativeURL(image, _ID)}/>));
+  const children = images.map((image, index) => (<img key={index} src={_relativeURL(image, _ID)}/>));
 
   return (
-    <Container>
+    <Container className={'screenshots'}>
       {hasBody(_body) && <Row>{_body}</Row>}
-      <Row rowCols={1} rowColsSm={2} rowColsMd={3} className={'screenshots'}>{children}</Row>
+      <Row rowCols={1} rowColsSm={2} rowColsMd={3}>{children}</Row>
     </Container>
 
   )
