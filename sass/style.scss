@@ -93,6 +93,44 @@ footer {
 
 .documentation {
   img {
-    @extend .img-fluid
+    @extend .img-fluid;
+    max-width: 20rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+    text-align: center;
+  }
+}
+
+.screenshot-image {
+  @extend .img-fluid;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.screenshot {
+  .image {
+    @extend .text-center;
+  }
+
+  img {
+    @extend .screenshot-image;
+  }
+}
+
+
+.screenshots {
+  img {
+    @extend .screenshot-image;
+  }
+}
+
+.for-business {
+  main {
+    & > .container + .container {
+      margin-top: 4rem;
+    }
+
+    p {
+      text-align: justify;
+    }
   }
 }

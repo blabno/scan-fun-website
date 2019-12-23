@@ -4,15 +4,17 @@ import Row from './row';
 
 const Screenshot = ({ _body, _ID, _relativeURL, imgUrl, bodyOnTheLeft = true }) => {
   const children = [];
+  const imageColumnIndex = bodyOnTheLeft ? 1 : 0;
+  const columnClasses = { [imageColumnIndex]: 'col-12 col-sm-6 col-md-4' };
   if (bodyOnTheLeft) {
     children.push(_body);
   }
-  children.push(<img src={_relativeURL(imgUrl, _ID)} className={'img-fluid'}/>);
+  children.push(<div className={'image'}><img src={_relativeURL(imgUrl, _ID)} className={'img-fluid'}/></div>);
   if (!bodyOnTheLeft) {
     children.push(_body);
   }
   return (
-    <Row rowCols={1} rowColsMd={2}>{children}</Row>
+    <Row className={'screenshot'} columnClasses={columnClasses}>{children}</Row>
   )
 };
 

@@ -7,10 +7,19 @@ header:                # Our header part of the layout
   - /_shared/header.md # This is the header and we got it from another folder we use to share partials
 
 main:                  # Our main part of the layout
-  - body.md            # This partial is located inside the same folder as this index.yml
+  - intro.md            # This partial is located inside the same folder as this index.yml
+  - all-in-one-app.md            # This partial is located inside the same folder as this index.yml
+  - teams.md            # This partial is located inside the same folder as this index.yml
+  - distribute-coupons-on-your-premises.md            # This partial is located inside the same folder as this index.yml
+  - no-distributor-required.md            # This partial is located inside the same folder as this index.yml
+  - distribute-other-companies-coupons.md            # This partial is located inside the same folder as this index.yml
+  - how-to-start.md            # This partial is located inside the same folder as this index.yml
+  - more-questions.md            # This partial is located inside the same folder as this index.yml
 
 footer:                # Our footer part of the layout
   - /_shared/footer.md # Another reused partial from our _shared folder
+
+bodyClassName: for-business
 
 # You can pass in many more options to your layout here,
 # things like a theme variable or a localization string.

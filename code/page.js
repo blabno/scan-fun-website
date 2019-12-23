@@ -7,7 +7,7 @@ import Row from './row';
 /**
  * The page layout component
  */
-const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _ID, _pages }) => (
+const Page = ({ bodyClassName, title, stylesheet, header, main, footer, script, _relativeURL, _ID, _pages }) => (
   <html>
   <head>
     <title>ScanFun - {title}</title>
@@ -22,7 +22,7 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
         : null
     }
   </head>
-  <body>
+  <body className={bodyClassName}>
   <div id={'content'}>
     <header role="banner">
       {header}
@@ -51,6 +51,11 @@ const Page = ({ title, stylesheet, header, main, footer, script, _relativeURL, _
 );
 
 Page.propTypes = {
+  /**
+   * bodyClassName: for-business
+   */
+  bodyClassName: PropTypes.string,
+
   /**
    * title: Homepage
    */
