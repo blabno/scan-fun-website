@@ -15,7 +15,7 @@ const Page = ({ bodyClassName, title, stylesheet, header, main, footer, script, 
     <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link rel="stylesheet" href={_relativeURL(`/assets/css/style.css`, _ID)}/>
+    <link rel="stylesheet" href={`${_relativeURL(`/assets/css/style.css`, _ID)}?${Date.now()}`}/>
     {
       stylesheet != undefined
         ? (<link rel="stylesheet" href={_relativeURL(`/assets/css/${stylesheet}.css`, _ID)}/>)
