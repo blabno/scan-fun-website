@@ -5,3 +5,6 @@ export const MANAGER_APP_ANDROID_URL = 'https://play.google.com/store/apps/detai
 export const MANAGER_APP_IOS_URL = 'https://play.google.com/store/apps/details?id=fun.scan.manager';
 export const DISTRIBUTOR_APP_ANDROID_URL = 'https://play.google.com/store/apps/details?id=fun.scan.distributor';
 export const DISTRIBUTOR_APP_IOS_URL = 'https://play.google.com/store/apps/details?id=fun.scan.distributor';
+
+export class MANAGER_APP_ANDROID_URL_ {
+}

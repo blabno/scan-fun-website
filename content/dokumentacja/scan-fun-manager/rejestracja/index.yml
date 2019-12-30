@@ -3,5 +3,11 @@ header:
   - /_shared/header.md
 main:
   - body.md
+  - registration-first-step.md
+  - registration-fill-form.md
+  - select-or-create-company-list.md
+  - register-company.md
+  - scan-code-qr.md
+
 footer:
   - /_shared/footer.md
