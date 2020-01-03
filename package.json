@@ -9,8 +9,8 @@
     "build:sass": "node-sass --output-style compressed -o assets/css sass/style.scss",
     "build:js": "echo noop for now, in future it should be 'uglifyjs js/script.js --compress --output assets/js/script.js'",
     "build": "npm run build:sass && npm run build:js && npm run build:site",
-    "watch:sass": "onchange 'sass/**/*.scss' -- npm run build:sass",
-    "watch:js": "onchange 'js/**/*.js' -- npm run build:js",
+    "watch:sass": "onchange sass/**/*.scss -- npm run build:sass",
+    "watch:js": "onchange js/**/*.js -- npm run build:js",
     "watch:site": "cuttlebelle watch -n",
     "watch": "npm run build && npm run watch:sass | npm run watch:js | npm run watch:site"
   },

@@ -1,8 +1,8 @@
 ---
 layout: header 
-links:
-    - text: For business
-      href: /for-business
-    - text: For buyers
-      href: /for-buyers
+links:  
+    - text: Pytania i odpowiedzi
+      href: /pytania-i-odpowiedzi
+    - text: Dla biznesu
+      href: /dla-biznesu
 ---

@@ -1,4 +1,0 @@
----
-layout: row 
----
-For business
