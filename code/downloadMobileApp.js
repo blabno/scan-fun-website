@@ -10,10 +10,10 @@ const DownloadMobileApp = ({ _relativeURL, androidUrl, iosUrl }) => {
       <div className={'download-mobile-app'}>
         <div>Pobierz aplikację mobilną:</div>
         <a href={androidUrl}>
-          <img src={_relativeURL('../../../../assets/images/google-play.png')} alt={'Pobierz aplikację z Google Play'}/>
+          <img src={_relativeURL('/assets/images/google-play.png')} alt={'Pobierz aplikację z Google Play'}/>
         </a>
         <a href={iosUrl}>
-          <img src={_relativeURL('../../../../assets/images/app-store.png')} alt={'Pobierz aplikację z App Store'}/>
+          <img src={_relativeURL('/assets/images/app-store.png')} alt={'Pobierz aplikację z App Store'}/>
         </a>
       </div>
     </ContainerWithOneRow>
@@ -29,3 +29,4 @@ DownloadMobileApp.propTypes = {
 DownloadMobileApp.defaultProps = {};
 
 export default DownloadMobileApp;
+
