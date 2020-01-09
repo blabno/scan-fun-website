@@ -8,6 +8,6 @@ className: documentation
 
 * [Rejestracja](/dokumentacja/scan-fun-manager/rejestracja)
 *  Pracownicy
-*  Kupony
+* [Kupony](/dokumentacja/scan-fun-manager/kupony)
 * [Portale](/dokumentacja/scan-fun-manager/portale)
 

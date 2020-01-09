@@ -10,5 +10,8 @@ main:
   - add-portal-part-2.md
   - add-portal-part-3.md
   - list-of-portals.md
+  - portal-details.md
+  - edit-portal.md
+  - delete-portal.md
 footer:
   - /_shared/footer.md
