@@ -3,6 +3,9 @@ header:
   - /_shared/header.md
 main:
   - body.md
+  - start-screen.md
+  - menu-list.md
+
 
 
 footer:
