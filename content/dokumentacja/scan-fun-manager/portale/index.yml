@@ -1,4 +1,4 @@
-title: Portale
+title: Dystrybutory
 header:
   - /_shared/header.md
 main:
@@ -13,5 +13,6 @@ main:
   - portal-details.md
   - edit-portal.md
   - delete-portal.md
+
 footer:
   - /_shared/footer.md

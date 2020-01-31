@@ -5,7 +5,19 @@ main:
   - body.md
   - start-screen.md
   - menu-list.md
-
+  - add-coupon-button.md
+  - add-coupon-form-part-1.md
+  - add-coupon-form-part-2.md
+  - add-coupon-form-part-3.md
+  - add-coupon-form-part-4.md
+  - add-coupon-form-part-5.md
+  - add-coupon-form-part-6.md
+  - add-coupon-form-part-7.md
+  - edit-coupon-part-1.md
+  - edit-coupon-part-2.md
+  - remove-coupon.md
+  - add-remove-coupon.md
+  - add-remove-coupon-form.md
 
 
 footer:
