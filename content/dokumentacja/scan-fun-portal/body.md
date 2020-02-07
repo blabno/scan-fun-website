@@ -6,6 +6,6 @@ className: documentation
 
 # Dokumentacja ScanFun Kasjer
 
-* [Rejestracja]
+
 
 
