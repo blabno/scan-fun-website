@@ -7,7 +7,7 @@ className: documentation
 # Dokumentacja ScanFun Manager
 
 * [Rejestracja](/dokumentacja/scan-fun-manager/rejestracja)
-* Pracownicy
-* Kupony
-* Portali
+* [Pracownicy](/dokumentacja/scan-fun-manager/pracownicy)
+* [Kupony](/dokumentacja/scan-fun-manager/kupony)
+* [Dystrybutory](/dokumentacja/scan-fun-manager/portale)
 

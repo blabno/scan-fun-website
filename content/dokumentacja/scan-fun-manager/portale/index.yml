@@ -1,0 +1,18 @@
+title: Dystrybutory
+header:
+  - /_shared/header.md
+main:
+  - body.md
+  - start-screen.md
+  - menu-list.md
+  - list-with-option-add-portal.md
+  - add-portal-part-1.md
+  - add-portal-part-2.md
+  - add-portal-part-3.md
+  - list-of-portals.md
+  - portal-details.md
+  - edit-portal.md
+  - delete-portal.md
+
+footer:
+  - /_shared/footer.md

@@ -1,0 +1,20 @@
+title: Pracownicy
+header:
+  - /_shared/header.md
+main:
+  - body.md
+  - start-screen.md
+  - menu-list-employees.md
+  - list-of-employees-add-button.md
+  - add-employee-part-1.md
+  - join-to-company.md
+  - code-qr-of-profile.md
+  - invite-employee.md
+  - end-result-employer.md
+  - end-result-employee.md
+  - employee-details.md
+  - remove-employee.md
+
+
+footer:
+  - /_shared/footer.md

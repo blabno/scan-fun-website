@@ -1,7 +1,7 @@
 ---
 layout: screenshot 
 
-imgUrl: /assets/screenshots/portal-qr-code.png
+imgUrl: /assets/screenshots/manager-portal-qr-code.png
 ---
 
 ## Rozdawaj kupony w swoim lokalu

@@ -1,0 +1,12 @@
+title: ScanFun Kasjer
+header:
+- /_shared/header.md
+main:
+- body.md
+- log-in.md
+- choose-company.md
+- list-of-distributors.md
+- distributor-details.md
+- distributors-qr-code.md
+footer:
+- /_shared/footer.md

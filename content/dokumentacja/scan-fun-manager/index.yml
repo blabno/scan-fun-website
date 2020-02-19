@@ -3,5 +3,6 @@ header:
   - /_shared/header.md
 main:
   - body.md
+  - download-manager-mobile-app.md
 footer:
   - /_shared/footer.md

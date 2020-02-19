@@ -1,0 +1,16 @@
+title: ScanFun Kolekcjoner
+header:
+- /_shared/header.md
+main:
+- body.md
+- menu-list.md
+- expiring-coupons-without-coupon.md
+- distribiutors-nearby.md
+- distribiutors-nearby-with-navigation.md
+- expiring-coupons-with-coupons.md
+- coupon-details.md
+- find-on-the-map.md
+- find-on-the-map-with-navigation.md
+- my-coupons.md
+footer:
+- /_shared/footer.md
